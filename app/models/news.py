@@ -3,7 +3,7 @@ class News:
     News class to define News sources
     '''
 
-    def __init__(self,id,title,overview,poster,vote_average,vote_count):
+    def __init__(self,id,name,title,description,poster,time_published,content):
         self.id = id
         self.name =name
         self.title = title
