@@ -11,7 +11,7 @@ class NewsTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_news = News('bbc-news','BBC News','Watch: Fifa Women\'s World Cup - England v Cameroon in last 16 under way','England face Cameroon in the round of 16 at the Fifa Women\'s World Cup 2019 ','https://m.files.bbci.co.uk/modules/bbc-morph-sport-opengraph/1.1.1/images/bbc-sport-logo.png',67,'GulaGula')
+        self.new_news = News('bbc-news','BBC News','https://m.files.bbci.co.uk/modules/bbc-morph-sport-opengraph/1.1.1/images/bbc-sport-logo.png')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_news,News))
