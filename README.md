@@ -1,4 +1,4 @@
-# NewsHighlight
+# News-Highlight
  News Highlight is a web application that allows users to see news articles from various sources
 ### Author
 [Denis Kibet](https://github.com/Kibet1816)
@@ -9,7 +9,7 @@ The website has the home page, that has a list of all sources of news sorted in 
 A user will have to click on `Read More` on a specific source to view artciles on the site
 Click [here](https://git.heroku.com/watchlist-kibet.git/) to see the live site
 
-## Prerequiites
+## Prerequisites
     - Python 3.6 required
 
 ## Set-up and Installation
