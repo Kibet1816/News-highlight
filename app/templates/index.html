@@ -10,6 +10,13 @@
     
 </head>
 <body>
-    
+    <!-- News Sources section -->
+
+    <h3>News sources</h3>
+    <ul>
+      {% for news_sourced in news   %}
+        <li> {{news_sourced.name}} </li>
+      {% endfor %}
+    </ul>
 </body>
 </html>

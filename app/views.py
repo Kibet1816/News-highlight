@@ -9,10 +9,9 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    news_source = get_source('id')
-    print(news_source)
+    news_source = get_source('entertainment')
     title = 'Home - Read all news here'
-    return render_template('index.html', title = title,news = news_source)
+    return render_template('index.html', title = title, news = news_source)
 
 @app.route('/news/<news_id>')
 def news(news_id):
